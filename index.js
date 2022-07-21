@@ -38,7 +38,7 @@ const isRaining = (boolean) =>
 
 isRaining(true);
 //isRaining(false);
-//isRaining(null);
+//isRaining("free");
 
 //Loops
 //task-1 Sequence
@@ -53,7 +53,7 @@ function geometricalSequence() {
     i = i * 2;
     n = n - 1;
   }
-  console.log(arr);
+  return console.log(arr);
 }
 
 geometricalSequence();
@@ -65,19 +65,19 @@ function multiplesOfThree() {
   for (let i = 1; i < 6; i++) {
     newStr += 3 * i + " ";
   }
-  return newStr;
+  return console.log(newStr);
 }
-console.log(multiplesOfThree());
+multiplesOfThree();
 
 //Math
 //task -1
 
 function powerOf(int) {
   let powervalue = int ** int;
-  return powervalue;
+  return console.log(powervalue);
 }
-console.log(powerOf(3));
-console.log(powerOf(4));
+powerOf(3);
+powerOf(4);
 
 //Problem Solving
 // 1. How many?
